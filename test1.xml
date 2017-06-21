@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org">
+<object type="form">
+<propertybag>
+<add key="label">My Goal</add>
+<add key="db">data</add>
+</propertybag>
+<comments>
+store results in the data table
+</comments>
+<groups>
+<group>
+<items>
+<item id="dataID" type="hidden">
+<propertybag>
+<add key="db">dataID</add>
+<add key="updateable">true</add>
+</propertybag>
+</item>
+</items>
+</group>
+</groups>
+</object>
+</metadata>
